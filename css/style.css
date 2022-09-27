@@ -180,11 +180,7 @@ div.welcome{
 
 div.links{
     display: flex;
-    justify-content: space-between;
-}
-
-a{
-    cursor: pointer;
+    justify-content: space-around;
 }
 
 .btn{
@@ -212,7 +208,6 @@ a{
 
 .btn:hover{
     color: rgb(139, 90, 90);
-    background-color: white;
     border: 1.5px solid brown;
     box-shadow: 1px 1px 5px rgb(136, 73, 73);
 }
