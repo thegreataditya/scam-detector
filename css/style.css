@@ -77,7 +77,9 @@ a{
 /* Navigation */
 #navbar ul{
     display: flex;
+    justify-content: space-around;
     z-index: 3;
+    width: 45%;
 }
 
 #navbar ul li{
@@ -104,10 +106,10 @@ a{
 #home{
     display: flex;
     flex-direction: column;
-    /* padding: 15px; */
     justify-content: center;
     align-items: center;
-    /* height: 500px; */
+    /* padding: 15px; */
+    height: 500px;
     height: max-content;
     z-index: -1;
     position: relative;
@@ -146,6 +148,7 @@ div.welcome{
     display: flex;
     align-items: center;
     justify-content: space-around;
+    padding-top: 18vh;
 }
 
 #home p{
@@ -217,13 +220,17 @@ div.links{
 }
 
 #about-con{
-    height: 650px;
-    padding-top: 30px;
-    margin-top: 10px;
+    height: 720px;
+    padding-top: 35px;
+    margin-top: 15px;
     display: flex;
     flex-direction: column;
     justify-content: center;
 }
+
+/* #about-con h3.h-primary{
+    margin-top: 1000px;
+} */
 
 #about-con p{
     font-family: 'Nunito', sans-serif;

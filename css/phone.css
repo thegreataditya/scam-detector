@@ -1,7 +1,10 @@
 /* Navigation Section */
 #navbar{
-    flex-direction: column;
+    /* flex-direction: column; */
+    /* justify-content: center; */
 }
+
+
 
 /* Services Section */
 .services{
@@ -37,11 +40,16 @@
     #navbar ul{
         flex-wrap: wrap;
         justify-content: center;
+        width: auto;
     }
 
-    #home{
-        height: 550px;
+    #navbar{
+        justify-content: center;
     }
+
+    /* #home{
+        height: 550px;
+    } */
 
     #home p{
         padding: 2px;
@@ -96,9 +104,6 @@
 }
 
 @media screen and (max-width:520px) {
-    #home::before{
-        height: 600px;
-    }
     #home{
         height: auto;
     }

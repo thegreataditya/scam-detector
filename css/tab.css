@@ -2,12 +2,19 @@
      #home #bg-video{
         display: none;
     }
+    #navbar ul{
+        width: auto;
+    }
 }
 
 /* #home{
     height: 500px;
     padding: 0;
 } */
+
+#home{
+    height: auto;
+}
 
 #home .welcome video{
     margin-top: 8px;
