@@ -123,7 +123,7 @@ a{
     height: 100%;
     width: 100%;
     position: absolute;
-    opacity: 0.8;
+    opacity: 0.9;
 }
 
 #home h1{
@@ -181,6 +181,10 @@ div.welcome{
 div.links{
     display: flex;
     justify-content: space-between;
+}
+
+a{
+    cursor: pointer;
 }
 
 .btn{
