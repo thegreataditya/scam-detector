@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   version="1.1"
+   viewBox="0 0 50 50"
+   id="svg28"
+   sodipodi:docname="linkedin.svg"
+   inkscape:version="1.2.1 (9c6d41e410, 2022-07-14)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs32" />
+  <sodipodi:namedview
+     id="namedview30"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     showgrid="false"
+     inkscape:zoom="15.52"
+     inkscape:cx="18.073454"
+     inkscape:cy="26.030928"
+     inkscape:window-width="1920"
+     inkscape:window-height="974"
+     inkscape:window-x="-11"
+     inkscape:window-y="-11"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="g26" />
+  <g
+     transform="translate(0 -1002.4)"
+     id="g26">
+    <g
+       fill="#45d6a9"
+       id="g24"
+       transform="translate(0.32216495,0.06443299)">
+      <path
+         d="m 24.774485,1003.5866 c -12.995066,0 -23.5689193,10.5574 -23.5689193,23.5347 1.48e-5,12.9773 10.5738533,23.5367 23.5689193,23.5367 12.995065,0 23.568918,-10.5594 23.568918,-23.5367 -1.5e-5,-12.9773 -10.573853,-23.5347 -23.568918,-23.5347 z m 0,3.5743 c 11.060474,0 19.988139,8.9152 19.988139,19.9608 -1.2e-5,11.0453 -8.927467,19.9628 -19.988139,19.9628 -11.060475,10e-5 -19.9881403,-8.9172 -19.9881403,-19.9628 1.26e-5,-11.0454 8.9274673,-19.9608 19.9881403,-19.9608 z"
+         color="#000000"
+         color-rendering="auto"
+         image-rendering="auto"
+         shape-rendering="auto"
+         solid-color="#000000"
+         style="text-indent:0;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;text-transform:none;white-space:normal;isolation:auto;mix-blend-mode:normal;fill:#5927a3;fill-opacity:1;stroke:#5927a3;stroke-width:2.77313;stroke-dasharray:none;stroke-opacity:1"
+         id="path18" />
+    </g>
+  </g>
+</svg>

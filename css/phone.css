@@ -1,0 +1,109 @@
+/* Navigation Section */
+#navbar{
+    flex-direction: column;
+}
+
+/* Services Section */
+.services{
+   flex-direction: column; 
+}
+
+.services .box{
+    padding: 10px;
+}
+
+.services .box img{
+    margin: 2px auto;
+}
+
+.services .h-secondary{
+    margin: 0;
+}
+
+/* Clients Section */
+
+
+/* Contact-us Section */
+
+/* Media-queries */
+@media screen and (max-width:620px) {
+
+    #navbar #logo{
+       flex-direction: column;
+       width: 100%;
+       margin: 0;
+       padding: 10px 0;
+    }
+    #navbar ul{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    #home{
+        height: max-content;
+        padding: 0;
+    }
+
+    #home p{
+        padding: 2px;
+        margin: 0;
+    }
+    
+    #home .welcome{
+        flex-direction: column-reverse;
+        margin: 0;
+        padding: 3px 0;
+    }
+
+    #home .welcome video{
+        margin: 0px;
+        width: 80%;
+        height: auto;
+    }
+
+    #home .links{
+        flex-direction: column;
+    }
+
+    #home .welcome h1{
+        margin: 0px;
+        width: 100%;
+    }
+
+    #about-con{
+        height: fit-content;
+    }
+
+    #about-con .about{
+        flex-direction: column;
+    }
+
+    .services{
+        margin: auto 10px;
+    }
+
+    #services-con .box{
+        flex-direction: column;
+        margin: 0;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .services #box2{
+        flex-direction: column-reverse;
+    }
+}
+
+@media screen and (max-width:322px) {
+    #navbar ul{
+     flex-direction: column;
+    }
+ 
+    #navbar ul a{
+      text-align: center;
+    }
+ 
+ }
+ 
+
+/* Utility Classes */
