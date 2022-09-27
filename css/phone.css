@@ -1,11 +1,3 @@
-/* Navigation Section */
-#navbar{
-    /* flex-direction: column; */
-    /* justify-content: center; */
-}
-
-
-
 /* Services Section */
 .services{
    flex-direction: column; 
@@ -23,10 +15,13 @@
     margin: 0;
 }
 
-/* Clients Section */
+#contact{
+    margin-top: 0px;
+}
 
-
-/* Contact-us Section */
+#contact h3{
+    margin-top: 0px;
+}
 
 /* Media-queries */
 @media screen and (max-width:620px) {

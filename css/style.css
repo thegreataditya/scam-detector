@@ -117,7 +117,7 @@ a{
 
 #home::before{
     content: "";
-    z-index: -2;
+    z-index: -3;
     /* background: url("../bg1.jpg") no-repeat center center/cover; */
     background-color: #F2F7FF;
     height: 100%;
@@ -133,7 +133,7 @@ a{
 }
 
 #bg-video{
-    z-index: -1;
+    z-index: -2;
     position: absolute;
     width: 100%;
 }
@@ -178,6 +178,15 @@ div.welcome{
     /* text-shadow: 1px 1px 5px black; */
 }
 
+
+/* Contact Section */
+#contact{
+    margin-top: 10vh;
+    background-color: #2a2a51;
+    color: #ebeef2;
+    min-height: 150px;
+}
+
 div.links{
     display: flex;
     justify-content: space-around;
@@ -209,7 +218,7 @@ div.links{
 .btn:hover{
     color: rgb(139, 90, 90);
     border: 1.5px solid brown;
-    box-shadow: 1px 1px 5px rgb(136, 73, 73);
+    box-shadow: 1px 1px 5px white;
 }
 
 /* About Section */
@@ -221,7 +230,6 @@ div.links{
 #about-con{
     height: 720px;
     padding-top: 35px;
-    margin-top: 15px;
     display: flex;
     flex-direction: column;
     justify-content: center;
