@@ -41,7 +41,6 @@
 
     #home{
         height: 550px;
-        padding: 0;
     }
 
     #home p{
@@ -52,7 +51,7 @@
     #home .welcome{
         flex-direction: column-reverse;
         margin: 0;
-        padding: 3px 0;
+        padding: 10px 0 0;
     }
 
     #home .welcome video{
@@ -62,7 +61,9 @@
     }
 
     #home .links{
-        flex-direction: column;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
     }
 
     #home .welcome h1{
@@ -94,16 +95,38 @@
     }
 }
 
-@media screen and (max-width:322px) {
-    #navbar ul{
-     flex-direction: column;
+@media screen and (max-width:520px) {
+    #home::before{
+        height: 600px;
+    }
+    #home{
+        height: auto;
     }
  
-    #navbar ul a{
-      text-align: center;
+ }
+
+@media screen and (max-width:322px) {
+    #navbar ul{
+        display: none;
+    }
+
+    #home .h-primary{
+        padding: 5px;
+        font-size: 2rem;
+    }
+
+    .h-primary{
+        font-size: 2rem;
+    }
+
+    .h-secondary{
+        font-size: 1.5rem;
     }
  
  }
  
 
 /* Utility Classes */
+.h-primary{
+    font-size: 2.5rem;
+}

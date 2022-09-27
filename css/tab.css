@@ -1,9 +1,23 @@
-#home #bg-video{
-    display: none;
+@media screen and (max-width:880px){
+     #home #bg-video{
+        display: none;
+    }
+}
+
+/* #home{
+    height: 500px;
+    padding: 0;
+} */
+
+#home .welcome video{
+    margin-top: 8px;
 }
 
 #home::before{
     background: url("../bg1.jpg") no-repeat center center/cover;
+    position: absolute;
+    top: 0;
+    bottom: 0;
 }
 
 #about-con{

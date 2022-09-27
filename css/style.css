@@ -104,17 +104,20 @@ a{
 #home{
     display: flex;
     flex-direction: column;
-    padding: 5px 20px;
+    /* padding: 15px; */
     justify-content: center;
     align-items: center;
-    height: 550px;
+    /* height: 500px; */
+    height: max-content;
+    z-index: -1;
+    position: relative;
 }
 
 #home::before{
     content: "";
     z-index: -2;
     /* background: url("../bg1.jpg") no-repeat center center/cover; */
-    background-color: #5B38A6;
+    background-color: #F2F7FF;
     height: 100%;
     width: 100%;
     position: absolute;
@@ -134,7 +137,7 @@ a{
 }
 
 #home .welcome video{
-    height: 180px;
+    height: auto;
     width: 280px;
     border-radius: 25px;
 }
