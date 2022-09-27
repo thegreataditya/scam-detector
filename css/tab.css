@@ -1,3 +1,11 @@
 #home #bg-video{
     display: none;
 }
+
+#home::before{
+    background: url("../bg1.jpg") no-repeat center center/cover;
+}
+
+#about-con{
+    height: fit-content;
+}

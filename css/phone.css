@@ -40,7 +40,7 @@
     }
 
     #home{
-        height: max-content;
+        height: 550px;
         padding: 0;
     }
 
@@ -56,8 +56,8 @@
     }
 
     #home .welcome video{
-        margin: 0px;
-        width: 80%;
+        margin: 5px 0;
+        width: 75%;
         height: auto;
     }
 
