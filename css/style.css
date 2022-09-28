@@ -1,6 +1,6 @@
-/* font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; 
-
-colors: "blue: #5B38A6", "golden: #F2B705","orange: #F29F05", "Violet:#9D49F2", "black:#272840" "violet-light: #6C3BB5";
+/* Copyright by ScamDetectorBot.com
+   Any kind of using or propagation of this code is punishable
+   Developer: Aditya Tiwari
 */
 
 /* Style Reset */
@@ -128,7 +128,6 @@ a{
 
 #home h1{
     color: white;
-    text-shadow: 2px 3px 5px black;
     width: 50%;
 }
 
@@ -154,7 +153,6 @@ div.welcome{
 #home p{
     color: white;
     text-align: center;
-    text-shadow: 2px 3px 5px black, -2px -2px 10px black;
     font-size: 1.2rem;
     font-weight: 800;
     padding: 10px;
