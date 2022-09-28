@@ -1,5 +1,5 @@
 /* Copyright by ScamDetectorBot.com
-   Any kind of using or propagation of this code is punishable
+   Any kind of usages or propagation of this code is a punishable offence
    Developer: Aditya Tiwari
 */
 
@@ -118,8 +118,7 @@ a{
 #home::before{
     content: "";
     z-index: -3;
-    /* background: url("../bg1.jpg") no-repeat center center/cover; */
-    background-color: #F2F7FF;
+    background-color: #4c2574;
     height: 100%;
     width: 100%;
     position: absolute;
