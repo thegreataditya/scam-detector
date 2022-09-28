@@ -63,12 +63,6 @@
         height: auto;
     }
 
-    #home .links{
-        flex-wrap: wrap;
-        align-items: center;
-        justify-content: center;
-    }
-
     #home .welcome h1{
         margin: 0px;
         width: 100%;

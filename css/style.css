@@ -189,6 +189,7 @@ div.welcome{
 
 div.links{
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-around;
 }
 
