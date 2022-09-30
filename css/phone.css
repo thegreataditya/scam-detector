@@ -1,126 +1,123 @@
 /* Services Section */
-.services{
-   flex-direction: column; 
+.services {
+    flex-direction: column;
 }
 
-.services .box{
+.services .box {
     padding: 10px;
 }
 
-.services .box img{
+.services .box img {
     margin: 2px auto;
 }
 
-.services .h-secondary{
+.services .h-secondary {
     margin: 0;
 }
 
-#contact{
+#contact {
     margin-top: 0px;
 }
 
-#contact h3{
+#contact h3 {
     margin-top: 0px;
 }
 
 /* Media-queries */
 @media screen and (max-width:620px) {
 
-    #navbar #logo{
-       flex-direction: column;
-       width: 100%;
-       margin: 0;
-       padding: 10px 0;
+    #navbar #logo {
+        flex-direction: column;
+        width: 100%;
+        margin: 0;
+        padding: 10px 0;
     }
-    #navbar ul{
+
+    #navbar ul {
         flex-wrap: wrap;
         justify-content: center;
         width: auto;
     }
 
-    #navbar{
+    #navbar {
         justify-content: center;
     }
 
-    /* #home{
-        height: 550px;
-    } */
-
-    #home p{
+    #home p {
         padding: 2px;
         margin: 0;
     }
-    
-    #home .welcome{
+
+    #home .welcome {
         flex-direction: column-reverse;
         margin: 0;
         padding: 10px 0 0;
     }
 
-    #home .welcome video{
+    #home .welcome video {
         margin: 5px 0;
         width: 75%;
         height: auto;
     }
 
-    #home .welcome h1{
+    #home .welcome h1 {
         margin: 0px;
         width: 100%;
     }
 
-    #about-con{
+    #about-con {
         height: fit-content;
     }
 
-    #about-con .about{
+    #about-con .about {
         flex-direction: column;
     }
 
-    .services{
+    .services {
         margin: auto 10px;
     }
 
-    #services-con .box{
+    #services-con .box {
         flex-direction: column;
         margin: 0;
         align-items: center;
         justify-content: center;
     }
 
-    .services #box2{
+    .services #box2 {
         flex-direction: column-reverse;
     }
 }
 
 @media screen and (max-width:520px) {
-    #home{
+    #home {
         height: auto;
     }
- 
- }
+
+}
 
 @media screen and (max-width:322px) {
-    #navbar ul{
+    #navbar ul {
         display: none;
     }
 
-    #home .h-primary{
+    #home .h-primary {
         padding: 5px;
         font-size: 2rem;
     }
 
-    .h-primary{
+    .h-primary {
         font-size: 2rem;
     }
 
-    .h-secondary{
+    .h-secondary {
         font-size: 1.5rem;
     }
- 
- }
- 
+
+}
+
 
 /* Utility Classes */
-.h-primary{
+.h-primary {
     font-size: 2.5rem;
 }
