@@ -123,7 +123,7 @@ nav ul#navlinks li a:hover{
 
 #home::before{
     content: "";
-    /* background: url("../src/bg1.jpg") no-repeat center center/cover; */
+    background: url("../src/bg1.jpg") no-repeat center center/cover;
     background-color: #313250;
     height: 100%;
     width: 100%;
