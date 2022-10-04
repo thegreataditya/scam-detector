@@ -1,28 +1,21 @@
-@media screen and (max-width:880px) {
-    #home #bg-video {
-        display: none;
-    }
-
-    #navbar ul {
-        width: auto;
-    }
+nav{
+    justify-content: space-between;
 }
 
-#home {
-    height: auto;
+nav ul#navlinks{
+    margin-left: 0;
 }
 
-#home .welcome video {
-    margin-top: 8px;
+nav ul{
+    width: auto;
+    /* overflow: hidden; */
 }
 
-#home::before {
-    background: url("../bg1.jpg") no-repeat center center/cover;
-    position: absolute;
-    top: 0;
-    bottom: 0;
+nav ul.tel_con{
+    display: none;
 }
 
-#about-con {
-    height: fit-content;
+/* Solve background issue for home section */
+#home #bg-video{
+    display: none;
 }
