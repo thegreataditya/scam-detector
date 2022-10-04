@@ -1,0 +1,32 @@
+nav{
+    justify-content: space-between;
+}
+
+nav ul#navlinks{
+    margin-left: 0;
+}
+
+nav ul{
+    width: auto;
+    /* overflow: hidden; */
+}
+
+nav ul.tel_con{
+    display: none;
+}
+
+/* Solve background issue for home section */
+#home #bg-video{
+    display: none;
+}
+
+#home::before{
+    background: url("../src/bg1.jpg") no-repeat center center/cover;
+}
+
+/* About Section minor Fix */
+#about-con .box{
+    width: auto;
+    padding: 5px;
+    text-align: justify;
+}
