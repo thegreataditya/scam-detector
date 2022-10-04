@@ -365,6 +365,7 @@ footer{
     background-color: rgb(33, 30, 30);
     color: #fff;
     min-height: 100px;
+    text-align: center;
 }
 
 /* Utility Classes */
